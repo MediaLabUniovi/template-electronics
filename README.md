@@ -1,44 +1,45 @@
-# Proyecto-Plantilla: Titulo Breve del Sistema
+# Plantilla Oficial de Electronica y Sistemas Embebidos
 
-Descripcion concisa de una o dos frases resumiendo que es el dispositivo, plataforma hardware base y objetivo.
+Plantilla base de MediaLabUniovi para disenos electronicos, PCBs, prototipos IoT y sistemas embebidos (Hardware y Firmware).
 
 ---
 
 ## Vision del Proyecto
 
-Detalle del proposito del desarrollo, casos de uso previstos y requerimientos principales.
+Prototipo de laboratorio enfocado en la integracion de sensores, actuadores y comunicaciones robustas.
 
 ---
 
 ## Estructura del Repositorio
 
-El repositorio sigue la arquitectura oficial de MediaLabUniovi:
-
 ```text
 nombre-del-proyecto/
-├── README.md            # Presentacion y guia principal
-├── hardware/            # Esquemáticos, pinout y datasheets
-└── software/            # Firmware, controladores y compilacion
+├── README.md            # Presentacion y descripcion del proyecto
+├── hardware/            # Esquematicos, datasheets y pinout
+└── software/            # Codigo fuente, entorno de compilacion y controladores
 ```
 
-### [📁 Hardware](hardware/)
-- Esquemáticos oficiales de la placa.
-- Hojas de datos (Datasheets) de los componentes.
-- Tabla de pinout en [`hardware/README.md`](hardware/README.md).
+### Hardware
+[📁 Submodulo Hardware](hardware/)
 
-### [📁 Software](software/)
-- Firmware principal y controladores de perifericos.
-- Guia de compilacion y despliegue en [`software/README.md`](software/README.md).
+- Esquematicos electronicos oficiales.
+- Hojas de datos (Datasheets) de los componentes.
+- Asignacion de pines detallada en [`hardware/README.md`](hardware/README.md).
+
+### Software
+[📁 Submodulo Software](software/)
+
+- Firmware y logica principal del microcontrolador.
+- Instrucciones de compilacion y despliegue en [`software/README.md`](software/README.md).
 
 ---
 
 ## Seguimiento del Proyecto (GitHub Issues)
 
-Tareas y evolutivos registrados mediante issues:
-1. Issue #1: [Ejemplo de tarea de integracion](https://github.com/MediaLabUniovi/template-embedded/issues)
+1. [Issue #1: Tarea inicial de puesta en marcha](https://github.com/MediaLabUniovi/template-electronics/issues)
 
 ---
 
 ## Licencia
 
-Distribuido bajo licencia de codigo abierto de MediaLabUniovi.
+Distribuido bajo licencia de codigo abierto de MediaLabUniovi (Universidad de Oviedo).
