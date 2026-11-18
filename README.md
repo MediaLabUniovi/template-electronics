@@ -1,16 +1,18 @@
-# Plantilla Oficial de Electronica y Sistemas Embebidos
+# Plantilla Oficial de Electronica y Hardware
 
-Plantilla base de MediaLabUniovi para disenos electronicos, PCBs, prototipos IoT y sistemas embebidos (Hardware y Firmware).
+Repositorio base de MediaLabUniovi para proyectos de electronica, PCBs, sensórica y prototipos embebidos (Hardware y Firmware).
 
 ---
 
 ## Vision del Proyecto
 
-Prototipo de laboratorio enfocado en la integracion de sensores, actuadores y comunicaciones robustas.
+Prototipo de laboratorio enfocado en la adquisicion, procesado y comunicacion de senales fisicas con microcontroladores.
 
 ---
 
 ## Estructura del Repositorio
+
+El repositorio sigue la arquitectura oficial de MediaLabUniovi:
 
 ```text
 nombre-del-proyecto/
@@ -22,21 +24,23 @@ nombre-del-proyecto/
 ### Hardware
 [📁 Submodulo Hardware](hardware/)
 
+Contiene la documentacion tecnica de la placa y componentes fisicos:
 - Esquematicos electronicos oficiales.
 - Hojas de datos (Datasheets) de los componentes.
-- Asignacion de pines detallada en [`hardware/README.md`](hardware/README.md).
+- Tabla detallada de pines y asignaciones en [`hardware/README.md`](hardware/README.md).
 
 ### Software
 [📁 Submodulo Software](software/)
 
-- Firmware y logica principal del microcontrolador.
-- Instrucciones de compilacion y despliegue en [`software/README.md`](software/README.md).
+Contiene el codigo fuente completo y el entorno de desarrollo:
+- Firmware principal y controladores de perifericos.
+- Guia de compilacion, flasheo y puesta en marcha en [`software/README.md`](software/README.md).
 
 ---
 
 ## Seguimiento del Proyecto (GitHub Issues)
 
-1. [Issue #1: Tarea inicial de puesta en marcha](https://github.com/MediaLabUniovi/template-electronics/issues)
+1. [Issue #1: Tarea inicial de integracion](https://github.com/MediaLabUniovi/template-electronics/issues)
 
 ---
 
