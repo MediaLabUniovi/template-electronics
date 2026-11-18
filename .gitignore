@@ -1,0 +1,17 @@
+# Secretos y credenciales privadas
+credentials.h
+.env
+*.key
+*.pem
+secrets.ini
+
+# Compilacion y entornos
+.pio/
+.vscode/
+build/
+*.bin
+*.elf
+*.hex
+
+# Archivos temporales de agentes
+temp_issue.md
